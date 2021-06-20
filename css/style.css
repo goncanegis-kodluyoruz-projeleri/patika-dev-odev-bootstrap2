@@ -1,0 +1,78 @@
+body {
+  padding-top: 6rem;
+  background-color: #fafafa;
+}
+
+.navbar {
+  height: 54px;
+}
+
+.logo {
+  margin-left: 192px;
+}
+
+.form-inline.my-2.my-lg-0.ml-5.d-none.d-sm-block {
+  margin-left: 5rem;
+}
+
+.collapse.navbar-collapse.d-flex.pl-5 {
+  justify-content: center;
+}
+
+::placeholder {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  background-image: url(../assets/search-solid.svg);
+  background-position: 40%;
+  background-repeat: no-repeat;
+  background-size: 6%;
+}
+
+.middlearea {
+  max-height: 200px !important;
+}
+
+.card-body {
+  text-align: center;
+}
+
+input.empty {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  background-color: #fafafa;
+}
+
+.postuserfont {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.storyphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(238, 39, 82);
+  margin-right: 7px;
+}
+
+.storytext {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+.rightpanellinks {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.rightpanellinks:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
